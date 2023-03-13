@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CATS - Creative Art Tracking Surveillance</title>
+</head>
+<body>
+  <div class="background"></div>
+
+  <a href="https://www.uc.pt/fctuc/" id="faculty_logo">
+    <img src="FCTUC_H_FundoClaro.png" alt="Faculty Logo" width="354" height="132">
+  </a>
+
+  <h1>CATS<br>Creative Art Tracking Surveillance</h1>
+  <p><h3><b>Select the painting you want to check</b></h3></p>
+  <a href="http://127.0.0.1:5500/test1.html" id="artwork_box">MonaLisa</a>
+  <a href="http://127.0.0.1:5500/test1.html" id="artwork_box">The Scream</a>
+  <p>
+    <a href="http://127.0.0.1:5500/test1.html" id="artwork_box">The Starry Night</a>
+    <a href="http://127.0.0.1:5500/test1.html" id="artwork_box">Guernica</a>
+  </p>
+
+  <style>
+    body {
+      font-family: 'Courier New', Courier, monospace;
+      color: #351D1E;
+      text-align: center;
+      font-size: 24px;
+      line-height: 1.5;
+      margin: 0;
+      padding: 0;
+    }
+    .background {
+      background-image: url('Adam_cat.jpg');
+      background-size: cover;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      opacity: 0.7;
+      z-index: -1;
+    }
+    h1 {
+      font-size: 48px;
+      margin-top: 100px;
+      margin-bottom: 50px;
+      text-transform: uppercase;
+      letter-spacing: 8px;
+    }
+    p {
+      margin-bottom: 20px;
+    }
+    #artwork_box {
+      color: #968546;
+      text-decoration: none;
+      background-color: #FDEDA2;
+      padding: 10px 20px;
+      border-radius: 20px;
+      font-size: 18px;
+    }
+    #artwork_box:hover {
+      background-color: #EDB16A;
+      color: #968546;
+    }
+    b {
+      color: #9A4749;
+    }
+    #faculty_logo {
+      position: absolute;
+      top: 25px;
+      left: 100px;
+    }
+  </style>
+</body>
+</html>
